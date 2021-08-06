@@ -13,6 +13,11 @@ physics_material_override = SubResource( 2 )
 gravity_scale = 0.0
 script = ExtResource( 2 )
 
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="AreaCollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource( 1 )
+
 [node name="Sprite" type="Sprite" parent="."]
 texture = ExtResource( 1 )
 
