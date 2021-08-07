@@ -21,4 +21,6 @@ func _physics_process(delta):
 		hitForce.y = mouseEndPosition.y - mouseStartposition.y
 		apply_impulse(Vector2(0, 0), -hitForce)
 		print_debug("Hit ball!")
+	#if $RampCheck.get_overlapping_areas() != []:
+		#print( $RampCheck.get_overlapping_areas())
 	pass
