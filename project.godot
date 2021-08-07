@@ -11,8 +11,12 @@ config_version=4
 [application]
 
 config/name="Mini Jam 86"
-run/main_scene="res://Scenes/Main Scene.tscn"
+run/main_scene="res://Scenes/Main Menu Scene.tscn"
 config/icon="res://icon.png"
+
+[display]
+
+window/size/resizable=false
 
 [global]
 
