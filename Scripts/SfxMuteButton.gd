@@ -16,6 +16,7 @@ func _input(event):
 			sprite.set_frame(1);
 			AudioServer.set_bus_mute(2, true)
 			isMuted = true
+		get_parent().get_node("SelectSFX").play()
 	pass
 
 func _on_SfxMuteButton_mouse_entered():

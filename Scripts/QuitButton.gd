@@ -12,6 +12,7 @@ func _input(event):
 	if (event.is_pressed()
 	&& event.button_index == BUTTON_LEFT
 	&& isOverButton):
+		get_parent().get_node("SelectSFX").play()
 		get_tree().quit()
 
 func _on_QuitButton_mouse_exited():

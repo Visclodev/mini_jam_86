@@ -21,9 +21,10 @@ func _on_PlayButton_mouse_entered():
 	pass
 
 func _input(event):
-	if (event.is_pressed()
+	if (event.is_action_released("Hit")
 	&& event.button_index == BUTTON_LEFT
 	&& isOverButton):
+		get_parent().get_node("SelectSFX").play()
 		_change_scene()
 	pass
 
