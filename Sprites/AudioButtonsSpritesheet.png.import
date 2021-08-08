@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/boosttile.png-fb576745c600dc423033a0490e7e9936.stex"
+path="res://.import/AudioButtonsSpritesheet.png-01c1106fd2ec38b0ce3ab6d43505dd11.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/boosttile.png"
-dest_files=[ "res://.import/boosttile.png-fb576745c600dc423033a0490e7e9936.stex" ]
+source_file="res://Sprites/AudioButtonsSpritesheet.png"
+dest_files=[ "res://.import/AudioButtonsSpritesheet.png-01c1106fd2ec38b0ce3ab6d43505dd11.stex" ]
 
 [params]
 

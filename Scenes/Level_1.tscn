@@ -1,13 +1,15 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Objects/Goal.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Objects/Wall.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Objects/PlayerBall.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Scenes/Level_2.tscn" type="PackedScene" id=4]
 
 [node name="Level" type="Node"]
 
 [node name="Goal" parent="." instance=ExtResource( 1 )]
-position = Vector2( 677, 291 )
+position = Vector2( 672, 288 )
+nextLevel = ExtResource( 4 )
 
 [node name="walls" type="Node" parent="."]
 
@@ -156,4 +158,4 @@ position = Vector2( 752, 400 )
 position = Vector2( 784, 400 )
 
 [node name="Ball" parent="." instance=ExtResource( 3 )]
-position = Vector2( 337, 298 )
+position = Vector2( 352, 288 )
