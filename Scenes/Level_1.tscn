@@ -7,7 +7,7 @@
 [node name="Level" type="Node"]
 
 [node name="Goal" parent="." instance=ExtResource( 1 )]
-position = Vector2( 672, 288 )
+position = Vector2( 677, 291 )
 
 [node name="walls" type="Node" parent="."]
 
@@ -156,4 +156,4 @@ position = Vector2( 752, 400 )
 position = Vector2( 784, 400 )
 
 [node name="Ball" parent="." instance=ExtResource( 3 )]
-position = Vector2( 352, 288 )
+position = Vector2( 337, 298 )
