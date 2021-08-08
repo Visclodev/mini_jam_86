@@ -9,7 +9,9 @@ func _on_QuitButton_mouse_entered():
 	pass
 
 func _input(event):
-	if (event is InputEventMouseButton && isOverButton):
+	if (event.is_pressed()
+	&& event.button_index == BUTTON_LEFT
+	&& isOverButton):
 		get_tree().quit()
 
 func _on_QuitButton_mouse_exited():
