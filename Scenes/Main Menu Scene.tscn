@@ -90,17 +90,32 @@ stream = ExtResource( 6 )
 bus = "Sfx"
 
 [node name="How to play" type="RichTextLabel" parent="."]
-margin_left = 64.0
-margin_top = 256.0
-margin_right = 264.0
-margin_bottom = 456.0
+margin_left = 74.6908
+margin_top = 238.182
+margin_right = 274.691
+margin_bottom = 438.182
 text = "How to play:
 
 -Click and drag to aim and shoot
 
 -Reach the Hole to win
 
--If the ball stops from moving, you die"
+-If the ball slows its movment to much, you die"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="How to play2" type="RichTextLabel" parent="."]
+margin_left = 6.28802
+margin_top = 535.6
+margin_right = 121.288
+margin_bottom = 595.6
+rect_scale = Vector2( 1.5, 1.5 )
+bbcode_enabled = true
+bbcode_text = "~BY          GodMadeEarth     and visclodev"
+tab_size = 24
+text = "~BY          GodMadeEarth     and visclodev"
+fit_content_height = true
 __meta__ = {
 "_edit_use_anchors_": false
 }

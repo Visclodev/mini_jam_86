@@ -1,0 +1,218 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Objects/Wall.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Objects/PlayerBall.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Objects/Goal.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Objects/Ramp.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Scenes/EndScreen.tscn" type="PackedScene" id=6]
+
+[sub_resource type="PhysicsMaterial" id=1]
+bounce = 1.0
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Wall15" parent="." instance=ExtResource( 1 )]
+position = Vector2( 359.686, 213.387 )
+physics_material_override = SubResource( 1 )
+
+[node name="Wall" parent="." instance=ExtResource( 1 )]
+position = Vector2( 358.872, 87.8517 )
+physics_material_override = SubResource( 1 )
+
+[node name="Wall2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 173.529, 239.815 )
+physics_material_override = SubResource( 1 )
+
+[node name="Wall3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 205.277, 239.815 )
+physics_material_override = SubResource( 1 )
+
+[node name="Wall4" parent="." instance=ExtResource( 1 )]
+position = Vector2( 297.52, 238.872 )
+physics_material_override = SubResource( 1 )
+
+[node name="Wall5" parent="." instance=ExtResource( 1 )]
+position = Vector2( 329.268, 238.872 )
+physics_material_override = SubResource( 1 )
+
+[node name="Wall6" parent="." instance=ExtResource( 1 )]
+position = Vector2( 358.493, 240.554 )
+physics_material_override = SubResource( 1 )
+
+[node name="Wall13" parent="." instance=ExtResource( 1 )]
+position = Vector2( 232.263, 239.815 )
+physics_material_override = SubResource( 1 )
+
+[node name="Wall14" parent="." instance=ExtResource( 1 )]
+position = Vector2( 265.598, 239.815 )
+physics_material_override = SubResource( 1 )
+
+[node name="Wall16" parent="." instance=ExtResource( 1 )]
+position = Vector2( 358.098, 56.7039 )
+physics_material_override = SubResource( 1 )
+
+[node name="Wall17" parent="." instance=ExtResource( 1 )]
+position = Vector2( 388.002, 336.091 )
+physics_material_override = SubResource( 1 )
+
+[node name="Wall7" parent="." instance=ExtResource( 1 )]
+position = Vector2( 359.816, 180.351 )
+physics_material_override = SubResource( 1 )
+
+[node name="Wall8" parent="." instance=ExtResource( 1 )]
+position = Vector2( 173.529, 337.035 )
+physics_material_override = SubResource( 1 )
+
+[node name="Wall9" parent="." instance=ExtResource( 1 )]
+position = Vector2( 205.277, 337.035 )
+physics_material_override = SubResource( 1 )
+
+[node name="Wall10" parent="." instance=ExtResource( 1 )]
+position = Vector2( 297.52, 336.091 )
+physics_material_override = SubResource( 1 )
+
+[node name="Wall11" parent="." instance=ExtResource( 1 )]
+position = Vector2( 329.268, 336.091 )
+physics_material_override = SubResource( 1 )
+
+[node name="Wall12" parent="." instance=ExtResource( 1 )]
+position = Vector2( 361.016, 336.091 )
+physics_material_override = SubResource( 1 )
+
+[node name="Wall18" parent="." instance=ExtResource( 1 )]
+position = Vector2( 232.263, 337.035 )
+physics_material_override = SubResource( 1 )
+
+[node name="Wall19" parent="." instance=ExtResource( 1 )]
+position = Vector2( 265.598, 337.035 )
+physics_material_override = SubResource( 1 )
+
+[node name="Wall20" parent="." instance=ExtResource( 1 )]
+position = Vector2( 421.338, 336.091 )
+physics_material_override = SubResource( 1 )
+
+[node name="Wall21" parent="." instance=ExtResource( 1 )]
+position = Vector2( 360.296, 150.858 )
+
+[node name="Wall22" parent="." instance=ExtResource( 1 )]
+position = Vector2( 360.296, 118.766 )
+
+[node name="Wall23" parent="." instance=ExtResource( 1 )]
+position = Vector2( 142.725, 241.703 )
+physics_material_override = SubResource( 1 )
+
+[node name="Wall24" parent="." instance=ExtResource( 1 )]
+position = Vector2( 141.781, 337.035 )
+physics_material_override = SubResource( 1 )
+
+[node name="Wall25" parent="." instance=ExtResource( 1 )]
+position = Vector2( 142.261, 307.541 )
+
+[node name="Ramp" parent="Wall25" instance=ExtResource( 5 )]
+position = Vector2( 285.36, -160.647 )
+
+[node name="Wall26" parent="." instance=ExtResource( 1 )]
+position = Vector2( 142.261, 275.449 )
+
+[node name="Wall27" parent="." instance=ExtResource( 1 )]
+position = Vector2( 452.316, 243.591 )
+physics_material_override = SubResource( 1 )
+
+[node name="Wall28" parent="." instance=ExtResource( 1 )]
+position = Vector2( 451.542, 212.443 )
+physics_material_override = SubResource( 1 )
+
+[node name="Wall29" parent="." instance=ExtResource( 1 )]
+position = Vector2( 453.26, 336.091 )
+physics_material_override = SubResource( 1 )
+
+[node name="Wall30" parent="." instance=ExtResource( 1 )]
+position = Vector2( 453.739, 306.597 )
+
+[node name="Wall31" parent="." instance=ExtResource( 1 )]
+position = Vector2( 453.739, 274.505 )
+
+[node name="Wall32" parent="." instance=ExtResource( 1 )]
+position = Vector2( 450.428, 88.7956 )
+physics_material_override = SubResource( 1 )
+
+[node name="Wall" parent="Wall32" instance=ExtResource( 1 )]
+position = Vector2( -63.7038, -31.3815 )
+
+[node name="Wall2" parent="Wall32" instance=ExtResource( 1 )]
+position = Vector2( -32.5559, -31.3815 )
+
+[node name="Goal" parent="Wall32" instance=ExtResource( 3 )]
+position = Vector2( -57.5086, 0.710197 )
+nextLevel = ExtResource( 6 )
+
+[node name="Ramp" parent="Wall32" instance=ExtResource( 5 )]
+position = Vector2( -276.076, 219.689 )
+direction = 1
+
+[node name="Ramp2" parent="Wall32" instance=ExtResource( 5 )]
+position = Vector2( -243.04, 220.633 )
+direction = 1
+
+[node name="Ramp3" parent="Wall32" instance=ExtResource( 5 )]
+position = Vector2( -214.724, 221.577 )
+direction = 1
+
+[node name="Ramp4" parent="Wall32" instance=ExtResource( 5 )]
+position = Vector2( -182.632, 222.521 )
+direction = 1
+
+[node name="Ramp5" parent="Wall32" instance=ExtResource( 5 )]
+position = Vector2( -151.484, 222.521 )
+direction = 1
+
+[node name="Ramp6" parent="Wall32" instance=ExtResource( 5 )]
+position = Vector2( -121.28, 221.577 )
+direction = 1
+
+[node name="Ramp7" parent="Wall32" instance=ExtResource( 5 )]
+position = Vector2( -89.1884, 220.633 )
+direction = 1
+
+[node name="Ramp8" parent="Wall32" instance=ExtResource( 5 )]
+position = Vector2( -58.9844, 219.689 )
+direction = 1
+
+[node name="Ramp9" parent="Wall32" instance=ExtResource( 5 )]
+position = Vector2( -27.8366, 218.745 )
+direction = 1
+
+[node name="Wall33" parent="." instance=ExtResource( 1 )]
+position = Vector2( 449.654, 57.6478 )
+physics_material_override = SubResource( 1 )
+
+[node name="Wall34" parent="." instance=ExtResource( 1 )]
+position = Vector2( 451.372, 181.295 )
+physics_material_override = SubResource( 1 )
+
+[node name="Wall35" parent="." instance=ExtResource( 1 )]
+position = Vector2( 451.852, 151.801 )
+
+[node name="Wall36" parent="." instance=ExtResource( 1 )]
+position = Vector2( 451.852, 119.71 )
+
+[node name="Ball" parent="." instance=ExtResource( 2 )]
+position = Vector2( 174.352, 273.561 )
+
+[node name="Ramp" parent="." instance=ExtResource( 5 )]
+position = Vector2( 427.431, 114.785 )
+
+[node name="Ramp2" parent="." instance=ExtResource( 5 )]
+position = Vector2( 427.431, 87.4121 )
+
+[node name="Ramp3" parent="." instance=ExtResource( 5 )]
+position = Vector2( 428.462, 178.007 )
+
+[node name="Ramp4" parent="." instance=ExtResource( 5 )]
+position = Vector2( 429.303, 210.802 )
+
+[node name="Ramp" parent="Ramp4" instance=ExtResource( 5 )]
+position = Vector2( 1.68176, 31.9541 )
+
+[node name="Ramp2" parent="Ramp4" instance=ExtResource( 5 )]
+position = Vector2( 0.84082, 63.0672 )

@@ -3,6 +3,7 @@ extends RigidBody2D
 var mouseStartposition = Vector2()
 var mouseEndPosition = Vector2()
 var hitForce = Vector2()
+var speedcheck=50
 var smallHitSound = load("res://Sounds/SmallHit.wav")
 var hitSound = load("res://Sounds/Hit.wav")
 var bounceSound = load("res://Sounds/Bounce.wav")
@@ -19,10 +20,9 @@ func _die():
 	pass
 
 func _verify_velocity():
-	if (get_linear_velocity().x <= 0.2 && get_linear_velocity().x >= -0.5):
+	if (get_linear_velocity().x <= speedcheck && get_linear_velocity().x >= -speedcheck && get_linear_velocity().y <= speedcheck && get_linear_velocity().y >= -speedcheck):
 		_die()
-	elif (get_linear_velocity().y <= 0.2 && get_linear_velocity().y >= -0.5):
-		_die()
+	
 
 func _play_hit_sound():
 	if ((hitForce.x < 10 && hitForce.x > -10) || (hitForce.y < 10 && hitForce.y > -10)):
